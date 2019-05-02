@@ -1,5 +1,3 @@
-let balance = 500.00;
-
 class Account {
 
   constructor(username) {
@@ -50,7 +48,7 @@ t1.commit();
 const t2 = new Withdrawal(50.00, myAccount);
 t2.commit();
 
-console.log('Ending Balance:', myAccount.balance);\
+console.log('Ending Balance:', myAccount.balance);
 
 
 
